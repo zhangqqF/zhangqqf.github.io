@@ -10,9 +10,9 @@
     <atom:link href="https://example.org/tags/guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog guide</title>
-      <link>https://example.org/series/themes-guide/emoji-support/</link>
+      <link>https://example.org/series/themes-guide/my-blog-guide/</link>
       <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.org/series/themes-guide/emoji-support/</guid>
+      <guid>https://example.org/series/themes-guide/my-blog-guide/</guid>
       <description>JekyllFor windows:
 Install Ruby Install Jekyll gem install jekyll Create a bolgjekyll new myblog cd myblog jekyll serve HugoDownload hugo. Choose hugo_extended_0.120.3_windows-amd64 which not need to install. And add the path of hugo to environment variables.
 Download the puppet theme on Hugo Themes.
