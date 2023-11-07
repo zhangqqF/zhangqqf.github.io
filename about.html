@@ -7,7 +7,7 @@ header-mask: 0.3
 multilingual: true
 ---
 
-{% include multilingual-sel.html %}
+<!-- {% include multilingual-sel.html %} -->
 
 <!-- Chinese Version -->
 <!-- <div class="zh post-container">
@@ -20,6 +20,10 @@ multilingual: true
     {% capture about_en %}{% include about/en.md %}{% endcapture %}
     {{ about_en | markdownify }}
 </div> -->
+
+<!-- 不用中英文切换 -->
+{% capture about_en %}{% include about/about.md %}{% endcapture %}
+    {{ about_en | markdownify }}
 
 
 {% if site.disqus_username %}
