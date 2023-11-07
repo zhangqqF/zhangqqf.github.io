@@ -4,7 +4,7 @@ title: "About"
 description: "「布尔什维克党人用一切方法回答挑战」"
 header-img: "img/about-me.jpg"
 header-mask: 0.3
-multilingual: true
+multilingual: false
 ---
 
 <!-- {% include multilingual-sel.html %} -->
@@ -16,13 +16,13 @@ multilingual: true
 </div> -->
 
 <!-- English Version -->
-<!-- <div class="en post-container">
-    {% capture about_en %}{% include about/en.md %}{% endcapture %}
+<div class="en post-container">
+    {% capture about_en %}{% include about/about.md %}{% endcapture %}
     {{ about_en | markdownify }}
-</div> -->
+</div>
 
 <!-- 不用中英文切换 -->
-{% include about/about.md %}
+<!-- {% include about/about.md %} -->
 
 
 {% if site.disqus_username %}
