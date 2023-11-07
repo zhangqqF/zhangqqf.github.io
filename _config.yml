@@ -75,7 +75,8 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "直到路的尽头，不错过每一个迷人的妞"
-sidebar-avatar: https://github.com/zhangqqF/zhangqqf.github.io/tree/master/img/zqq.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://github.com/zhangqqf.png # use absolute URL, seeing it's used in both `/` and `/about/`
+# 这个调用Github头像的链接很有意思
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
