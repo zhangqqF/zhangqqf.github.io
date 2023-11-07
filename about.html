@@ -22,8 +22,7 @@ multilingual: true
 </div> -->
 
 <!-- 不用中英文切换 -->
-{% capture about_en %}{% include about/about.md %}{% endcapture %}
-    {{ about_en | markdownify }}
+{% include about/about.md %}
 
 
 {% if site.disqus_username %}
