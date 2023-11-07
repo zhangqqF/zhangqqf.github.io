@@ -6,7 +6,7 @@ header-img: "img/about-me.jpg"
 header-mask: 0.3
 multilingual:
 ---
-00
+
 
 <!-- {% include multilingual-sel.html %} -->
 
@@ -18,12 +18,12 @@ multilingual:
 
 <!-- English Version -->
 <!-- <div class="en post-container"> -->
-    {% capture about_en %}{% include about/about.md %}{% endcapture %}
-    {{ about_en | markdownify }}
+    <!-- {% capture about_en %}{% include about/about.md %}{% endcapture %}
+    {{ about_en | markdownify }} -->
 <!-- </div> -->
 
 <!-- 不用中英文切换 -->
-<!-- {% include about/about.md %} -->
+{% include about/about.md %}
 
 
 {% if site.disqus_username %}
