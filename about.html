@@ -18,12 +18,11 @@ multilingual:
 
 <!-- English Version -->
 <!-- <div class="en post-container"> -->
-    {% include about/about.md %}
-    {{ about_en | markdownify }}
+    
 <!-- </div> -->
 
 <!-- 不用中英文切换 -->
-<!-- {% include about/about.md %} -->
+{% capture %}{% include about/about.md %}{% endcapture %}
 
 
 {% if site.disqus_username %}
