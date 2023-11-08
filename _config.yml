@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: 314032385@qq.com
 description: "Zqq blog"
 keyword: "Jekyll, Github pages, Blog"
-url: "https://zhnagqqf.me" # your host, for absolute URL
+url: "https://zhnagqqf.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
+# weibo_username: zhnagqq
+zhihu_username: zhnagqq
+github_username: zhnagqqf
+twitter_username: zhnagqq
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -74,7 +74,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "直到路的尽头，不错过每一个迷人的妞"
+sidebar-about-description: "布尔什维克党人用一切方法回答挑战"
 sidebar-avatar: https://github.com/zhangqqf.png # use absolute URL, seeing it's used in both `/` and `/about/`
 # 这个调用Github头像的链接很有意思
 

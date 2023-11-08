@@ -1,13 +1,13 @@
 ---
 layout: page
 title: "About"
-description: "「布尔什维克党人用一切方法回答挑战」"
+description: ""
 header-img: "img/about-me.jpg"
 header-mask: 0.3
 ---
 
 
-<!-- {% include multilingual-sel.html %} -->
+{% include multilingual-sel.html %}
 
 <!-- Chinese Version -->
 <!-- <div class="zh post-container">
@@ -16,15 +16,15 @@ header-mask: 0.3
 </div> -->
 
 <!-- English Version -->
-<!-- <div class="en post-container"> -->
-    
-<!-- </div> -->
+<!-- <div class="zh post-container">
+    {% capture about_en %}{% include about/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
+</div> -->
 
-<!-- 不用中英文切换 -->
-<!-- {% capture %}{% include about/about.md %}{% endcapture %} -->
+{% capture about %}{% include about/about.md %}{% endcapture %}
+    {{ about | markdownify }}
 
-
-<!-- {% if site.disqus_username %} -->
+{% if site.disqus_username %}
 <!-- disqus 评论框 start -->
 <div class="comment">
     <div id="disqus_thread" class="disqus-thread">
