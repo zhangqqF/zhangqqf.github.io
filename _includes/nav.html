@@ -1,5 +1,8 @@
 <!-- Navigation -->
 {% if page.nav-style == "invert" or page.header-style == "text" %}
+
+<head><link rel="stylesheet" href="../audio/APlayer.min.css"></head>
+
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top invert">
     {% else %}
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -13,7 +16,31 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+                <!-- 左上角快捷方式  navbar-brand -->
+                <!-- <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a> -->
+
+                <!-- Audio -->
+                <div id="player" class="aplayer"></div>
+                <script src="../audio/APlayer.min.js"></script>
+                <script>
+                    var audio = new APlayer({
+                        element: document.getElementById('player'),
+                        narrow: true,
+                        autoplay: 1,
+                        showlrc: false,
+                        music: {
+                            title: '',
+                            author: '',
+                            url: '../audio/张国荣 - 春夏秋冬.mp3',
+                            pic: '../audio/zqq.jpg'
+                        }
+                    });
+                    audio.init();
+                    audio.play();
+                </script>
+
+
+
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
