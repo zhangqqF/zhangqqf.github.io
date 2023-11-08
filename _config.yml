@@ -1,6 +1,6 @@
 # Site settings
 title: Zqq Blog
-SEOTitle: "55"
+SEOTitle: ""
 header-img: img/home-bg.jpg
 email: 314032385@qq.com
 description: "Zqq blog"
@@ -14,9 +14,10 @@ future: true
 # SNS settings
 RSS: false
 # weibo_username: zhnagqq
-zhihu_username: zhnagqq
-github_username: zhnagqqf
-twitter_username: zhnagqq
+zhihu_username: zhangqq
+github_username: zhangqqf
+twitter_username: zhangqq
+jianshu_username: 463895cb2b2c
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
