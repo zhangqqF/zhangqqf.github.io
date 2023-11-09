@@ -26,7 +26,7 @@ License
 
 Fork from [Hux](https://github.com/Huxpro/huxpro.github.io)
 
-Don't forget [BY](https://github.com/qiubaiying/qiubaiying.github.io) yet, just through her to found Hux
+And Don't forget [BY](https://github.com/qiubaiying/qiubaiying.github.io), just through her to found Hux
 
 
 >Hux
