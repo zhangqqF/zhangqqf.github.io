@@ -11,6 +11,13 @@
 [User Manual 👉](_doc/Manual.md)
 --------------------------------------------------
 
+Audio
+-----
+在左上角添加背景音乐，首先在[nav.html](_includes/nav.html)中注释掉原来的超链接
+```
+<a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+```
+
 
 License
 -------
@@ -19,7 +26,7 @@ License
 
 Fork from [Hux](https://github.com/Huxpro/huxpro.github.io)
 
-Don't forget [BY](https://github.com/qiubaiying/qiubaiying.github.io) yet, just through her to found Hux
+And Don't forget [BY](https://github.com/qiubaiying/qiubaiying.github.io), just through her to found Hux
 
 
 >Hux
