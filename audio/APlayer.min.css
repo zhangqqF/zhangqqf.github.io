@@ -14,7 +14,7 @@
 .aplayer-withlrc.aplayer .aplayer-pic{height:106px;width:106px}
 .aplayer-withlrc.aplayer .aplayer-info{margin-left:106px;height:106px}
 .aplayer-withlrc.aplayer .aplayer-lrc{display:block}
-.aplayer{font-family:Arial,Helvetica,sans-serif;margin:5px;-webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);box-shadow:0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);-webkit-border-radius:2px;border-radius:2px;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.aplayer{font-family:Arial,Helvetica,sans-serif;border:1px solid #fff; margin:5px;-webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);box-shadow:0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);-webkit-border-radius:2px;border-radius:2px;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
 .aplayer [class*=" aplayer-icon-"]:before,.aplayer [class^=aplayer-icon-]:before{font-family:aplayer-fontello;font-style:normal;font-weight:400;display:inline-block;text-decoration:inherit;width:1em;text-align:center;font-variant:normal;text-transform:none;line-height:1em}
 .aplayer .aplayer-lrc-content,.aplayer .aplayer-pic .aplayer-hide{display:none}
 .aplayer .aplayer-icon-weibo:before{content:'\e805'}
