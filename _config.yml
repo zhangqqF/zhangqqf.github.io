@@ -1,5 +1,5 @@
 # Site settings
-title: Zqq Blog
+title: Zqq
 SEOTitle: ""
 header-img: img/home-bg.jpg
 email: 314032385@qq.com
@@ -75,7 +75,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "布尔什维克党人用一切方法回答挑战"
+sidebar-about-description: "躲进小楼成一统，管他春夏与秋冬"
 sidebar-avatar: https://github.com/zhangqqf.png # use absolute URL, seeing it's used in both `/` and `/about/`
 # 这个调用Github头像的链接很有意思
 
