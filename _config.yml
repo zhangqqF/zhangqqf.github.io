@@ -14,6 +14,7 @@ future: true
 # SNS settings
 RSS: false
 # weibo_username: zhnagqq
+linkedin_username: 琼敲-张-8599b6251
 zhihu_username: Zhangqq
 github_username: zhangqqf
 twitter_username: zhangqq
