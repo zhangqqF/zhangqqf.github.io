@@ -11,12 +11,19 @@
 [User Manual 👉](_doc/Manual.md)
 --------------------------------------------------
 
-Audio
+## Usage
 -----
+将Hux的仓库clone下来后，本地的jekyll还需`install jekyll-paginate`，并在Gemfile文件中添加`gem 'jekyll-paginate'`语句方可使用
+
+### Audio
 在左上角添加背景音乐，首先在[nav.html](_includes/nav.html)中注释掉原来的超链接
 ```
 <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
 ```
+再用object插入audio。
+
+### Comments
+因[disqus](https://disqus.com/)需要梯子，因此借鉴[BY](https://github.com/qiubaiying/qiubaiying.github.io)用gitalk。
 
 
 License

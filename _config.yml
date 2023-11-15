@@ -60,9 +60,23 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-# Disqus settings
-disqus_username: zhangqq
 
+# 评论系统
+# Disqus settings
+# disqus_username: zhangqq
+
+# Gitalk
+gitalk:
+  enable: true                                              #是否开启Gitalk评论
+  clientID: ef4b7ef11cb3c459144b                            #生成的clientID
+  clientSecret: c9f776259af51fb0c95414ae8cd72c90f46dfc6d    #生成的clientSecret
+  repo: zhangqqf.github.io    #仓库名称
+  owner: zhangqqf    #github用户名
+  admin: zhangqqf
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
 # Netease settings
 netease_comment: false
 
