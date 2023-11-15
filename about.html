@@ -43,8 +43,10 @@ header-mask: 0.3
     owner: '{{site.gitalk.owner}}',
     admin: ['{{site.gitalk.admin}}'],
     distractionFreeMode: {{site.gitalk.distractionFreeMode}},
-    id: 'about',
+    // id: 'about',
+    id: location.pathname,
     title: 'comments',
+    language:'en',
     });
     gitalk.render('gitalk-container');
 </script>
