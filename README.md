@@ -12,7 +12,6 @@
 --------------------------------------------------
 
 ## Usage
------
 将Hux的仓库clone下来后，本地的jekyll还需`install jekyll-paginate`，并在Gemfile文件中添加`gem 'jekyll-paginate'`语句方可使用
 
 ### Audio
@@ -24,6 +23,9 @@
 
 ### Comments
 因[disqus](https://disqus.com/)需要梯子，因此借鉴[BY](https://github.com/qiubaiying/qiubaiying.github.io)用gitalk。
+
+### Analytics
+Google需要梯子，用[百度统计](https://tongji.baidu.com/web/welcome/login)
 
 
 License
