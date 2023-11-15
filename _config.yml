@@ -61,7 +61,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: zhangqqf.github.io   # 关系到comments
+disqus_username: zhangqq
 
 # Netease settings
 netease_comment: false
@@ -72,7 +72,7 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: zhangqqf.github.io
+ga_domain: zhangqq
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
