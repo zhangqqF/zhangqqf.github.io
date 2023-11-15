@@ -72,13 +72,14 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: zhangqq
+ga_domain: auto
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "布尔什维克党人用一切方法回答挑战"
-sidebar-avatar: https://github.com/zhangqqf.png # use absolute URL, seeing it's used in both `/` and `/about/`
+# sidebar-avatar: https://github.com/zhangqqf.png # use absolute URL, seeing it's used in both `/` and `/about/`
 # 这个调用Github头像的链接很有意思
+sidebar-avatar: /img/zqq.jpg
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
