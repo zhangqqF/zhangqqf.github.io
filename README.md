@@ -3,7 +3,6 @@
 
 > I never expect this becomes popular. -- Hux
 
-> “夫唯不争，故天下莫能与之争” -- Zqq
 
 ![](http://huangxuan.me/img/blog-desktop.jpg)
 
