@@ -7,7 +7,7 @@ My major is structural [durability]() for full vehicles, and minor in structural
 
 In recent years, I'm strong interesting in [autonomous driving](), and trying to get [Deep Learning]() into CAE analysis.
 
-**Welcom to talks:☟**
+**Welcom to talks:👇**
 - CAE&CFD etc. simulation
 - Software Development
 - Self-driving cars
