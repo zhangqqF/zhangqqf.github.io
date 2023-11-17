@@ -17,42 +17,43 @@ tags:
 ---
 
 >Regulations of governments  
->   FMVSS of America  
->   EEC and ECE of Europe
+- FMVSS of America  
+- EEC and ECE of Europe
 
 >NCAP(New Car Assessment Program)  
->   Euro-NCAP  
->   US-NCAP  
->   J-NCAP  
->   C-NCAP
+- Euro-NCAP  
+- US-NCAP  
+- J-NCAP  
+- C-NCAP
+---
 
 The model [bumper.k]() provided has been assigned properties.
 
-###### Spotweld
+### Spotweld
 Connet the outer and inner plates of the [crash boxes]() with [spotwelds](), and place the spotweld in the new created component called *mass*.
 
-###### Connect the bumper to the car
+### Connect the bumper to the car
 The car is simplified as a rigid plate which behind the bumper.
 Move the elements of the row of the crash boxes closest to the rigid plate into the component of the rigid plate.
 
-###### Mass
+### Mass
 Add the mass elements to the rigid plate representing the car, all of the mass about 1.6 tone.  
     Analysis>safety>0-D elems for HM2021  
     $5331*3E-6=1.5993 t$
     HM cannot calculate the mass
 
-###### Contacts
+### Contacts
 >type = master + slave
 
 - SurfaceToSurface = [bumper]() + [wall]()  
     bumper -- *a set the type is part which include all of the shell components except the wall.*
 - SingleSurface = [bumper]()
 
-###### Constraints and initial velocity
+### Constraints and initial velocity
 Fixed the [wall](), apply the Vx (velocity in X-Coordination) of [4 mm/s]() to the [velocity]()(a set the type is node which include all of the shell components except the wall).
 
-###### Controls
+### Controls
 
 
-###### Database
+### Database
 
