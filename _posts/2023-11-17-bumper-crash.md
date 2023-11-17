@@ -4,7 +4,7 @@ title:      "Bumper crash"
 subtitle:   "《基于LS-DYNA和HyperWorks的汽车仿真与分析》案例"
 date:       2023-11-17
 author:     "zhangqq"
-header-img: "img/post/bunmper_crash.gif"
+header-img: "img/post/bumper_crash.gif"
 header-mask: 0.4
 catalog: true
 published: true
