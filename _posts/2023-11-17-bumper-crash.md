@@ -25,6 +25,7 @@ tags:
 - US-NCAP  
 - J-NCAP  
 - C-NCAP
+
 ---
 
 The model [bumper.k]() provided has been assigned properties.
@@ -38,9 +39,7 @@ Move the elements of the row of the crash boxes closest to the rigid plate into 
 
 ### Mass
 Add the mass elements to the rigid plate representing the car, all of the mass about 1.6 tone.  
-    Analysis>safety>0-D elems for HM2021  
-    $5331*3E-6=1.5993 t$
-    HM cannot calculate the mass
+$$5331*3E-4=1.5993 t$$
 
 ### Contacts
 >type = master + slave
