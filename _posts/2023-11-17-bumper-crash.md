@@ -28,10 +28,10 @@ tags:
 
 ---
 
-The model [bumper.k]() provided has been assigned properties.
+The model provided [bumper.k]() has been assigned properties.
 
 ### Spotweld
-Connet the outer and inner plates of the [crash boxes]() with [spotwelds](), and place the spotweld in the new created component called *mass*.
+Connet the outer and inner plates of the <font color=#b152f2>crash boxes</font> with [spotwelds](), and place the spotweld in the new created component called *mass*.
 
 ### Connect the bumper to the car
 The car is simplified as a rigid plate which behind the bumper.
@@ -39,7 +39,7 @@ Move the elements of the row of the crash boxes closest to the rigid plate into 
 
 ### Mass
 Add the mass elements to the rigid plate representing the car, all of the mass about 1.6 tone.  
-$$5331*3E-4=1.5993 t$$
+>5331 * 3E-4 = 1.5993t, 5331 is the number of the nodes of the rigid plate.
 
 ### Contacts
 >type = master + slave
@@ -49,7 +49,7 @@ $$5331*3E-4=1.5993 t$$
 - SingleSurface = [bumper]()
 
 ### Constraints and initial velocity
-Fixed the [wall](), apply the Vx (velocity in X-Coordination) of [4 mm/s]() to the [velocity]()(a set the type is node which include all of the shell components except the wall).
+Fixed the [wall](), apply the Vx (velocity in X-Coordination) of [4 mm/ms]() to the [velocity]()(a set the type is node which include all of the shell components except the wall).
 
 ### Controls
 
