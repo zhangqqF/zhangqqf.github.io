@@ -28,10 +28,10 @@ tags:
 
 ---
 
-The model provided [bumper.k]() has been assigned properties.
+The model [bumper.k]() provided has been assigned properties, and it's units system is mm-N-MPa-t-s, which is same as the commonly used in abaqus. But in LS-Dyna explicit analysis we usually use [ms]() as the unit of time since the duration of crashes is very short. So be careful, we need to convert unit by ANSA.
 
 ### Spotweld
-Connet the outer and inner plates of the <font color=#b152f2>crash boxes</font> with [spotwelds](), and place the spotweld in the new created component called *mass*.
+Connet the outer and inner plates of the [crash boxes]() with [spotwelds](), and place the spotweld in the new created component called *mass*.
 
 ### Connect the bumper to the car
 The car is simplified as a rigid plate which behind the bumper.
