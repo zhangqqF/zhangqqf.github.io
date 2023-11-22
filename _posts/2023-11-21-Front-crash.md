@@ -49,3 +49,14 @@ tracking systems
 - **转向管柱跳动量**
 
 - **Reforce of the wall**
+
+
+Applications>Tool>HvTrans
+File>Open Result File>d3plot
+
+Add the path of the **hvtrans.exe** located folder to the PATH, you can search *hvtrans* on the root directory of the hwdestop if you don't known where the excute file placed. Execute the command to translate the d3plot of the current directory.
+```
+hvtrans d3plot -o out.h3d -ar
+```
+
+.../hwdestopio/result_readers/bin/win64/
