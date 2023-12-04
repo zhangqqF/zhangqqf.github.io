@@ -63,19 +63,3 @@ hvtrans d3plot -o out.h3d -ar
 
 
 
-Body
-- windshield single surface
-- fixglass single surface
-- adhesive as slave contacts to sheetmetal
-- spotweld as slave contatcs to sheetmetal
-
-- initial stress shell
-- damping
-- hourglass
-
-patch to the door
-1000359
-1000360
-1000357
-1000358
-1000361
