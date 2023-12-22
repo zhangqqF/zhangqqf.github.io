@@ -14,6 +14,7 @@ lang: en
 # header-bg-css: "linear-gradient(to right, #24b94a, #38ef7d);"
 tags:
   - Safety
+  - lsdyna
 ---
 
 >Regulations of governments  
